@@ -1,0 +1,94 @@
+/* Beautiful AI-inspired QR Code Generator Styles */
+
+body {
+    background: linear-gradient(135deg, #e0e7ff 0%, #f0fdfa 100%);
+    font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+    min-height: 100vh;
+    margin: 0;
+    color: #22223b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background: #fff;
+    border-radius: 24px;
+    box-shadow: 0 8px 32px rgba(60, 72, 107, 0.12);
+    padding: 2.5rem 2rem;
+    max-width: 380px;
+    width: 100%;
+    text-align: center;
+    transition: box-shadow 0.2s;
+}
+
+.container:hover {
+    box-shadow: 0 12px 40px rgba(60, 72, 107, 0.18);
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1.2rem;
+    letter-spacing: -1px;
+    color: #3a0ca3;
+}
+
+label {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    color: #4f4f4f;
+    text-align: left;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    border: 1.5px solid #bdbdbd;
+    border-radius: 12px;
+    font-size: 1rem;
+    margin-bottom: 1.2rem;
+    outline: none;
+    transition: border 0.2s;
+    background: #f7f7fb;
+}
+
+input[type="text"]:focus {
+    border-color: #3a86ff;
+    background: #e0f2fe;
+}
+
+button {
+    background: linear-gradient(90deg, #3a86ff 0%, #8338ec 100%);
+    color: #fff;
+    border: none;
+    border-radius: 12px;
+    padding: 0.75rem 2rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(58, 134, 255, 0.08);
+    transition: background 0.2s, transform 0.1s;
+}
+
+button:hover {
+    background: linear-gradient(90deg, #4361ee 0%, #7209b7 100%);
+    transform: translateY(-2px) scale(1.03);
+}
+
+.qr-code {
+    margin: 2rem 0 1rem 0;
+    padding: 1.2rem;
+    background: #f8fafc;
+    border-radius: 16px;
+    box-shadow: 0 2px 8px rgba(58, 134, 255, 0.04);
+    display: inline-block;
+}
+
+footer {
+    margin-top: 1.5rem;
+    font-size: 0.95rem;
+    color: #8d99ae;
+    letter-spacing: 0.2px;
+}
